@@ -1,6 +1,10 @@
 accelerator:
   displayName: Hello Ytt
   description: Uses YTT to generate yaml
+  tags: 
+  - yaml
+  - ytt
+  - accelerator
   options:
   - name: greeting
     label: Greeting
