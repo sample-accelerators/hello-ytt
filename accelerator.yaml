@@ -12,7 +12,7 @@ accelerator:
     defaultValue: Hello
 
 # To call on YTT all you need is the 'YTT' transform.
-# It requires no (nor supports any) parameters.
+# It requires no parameters.
 # What it does:
 #  - materializes all input files into a temp dir
 #  - creates an empty 'output' tmpdir
