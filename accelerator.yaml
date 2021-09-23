@@ -1,6 +1,6 @@
 accelerator:
-  displayName: Hello Ytt
-  description: Uses YTT to generate yaml
+  displayName: Hello ytt
+  description: Demonstrates how to use the YTT transform to generate yaml
   tags:
     - yaml
     - ytt
