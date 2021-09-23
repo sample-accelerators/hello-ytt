@@ -1,27 +1,27 @@
 accelerator:
-  displayName: Hello Ytt
-  description: Uses YTT to generate yaml
-  tags: 
-  - yaml
-  - ytt
-  - accelerator
+  displayName: Hello ytt
+  description: Demonstrates how to use the YTT transform to generate YAML
+  tags:
+    - yaml
+    - ytt
   options:
-  - name: greeting
-    label: Greeting
-    description: A sample option used in yaml generation.
-    defaultValue: Hello
+    - name: greeting
+      label: Greeting
+      description: A sample option used to generate YAML.
+      defaultValue: Hello
+      display: true
 
 # To call on YTT all you need is the 'YTT' transform.
 # It requires no parameters.
 # What it does:
-#  - materializes all input files into a temp dir
-#  - creates an empty 'output' tmpdir
+#  - materializes all input files into a temporary input-folder
+#  - creates an empty output-folder
 #  - materializes options and derivedSymbols into a temporary <symbols.json> file
 #  - calls ytt like so:
 #      ytt -f <input-folder> \
 #           --data-values-file <symbols.json> \
 #           --output-files <output-folder>
-#  - takes the contents of the output folder to be the output of 
+#  - takes the contents of the output folder to be the output of
 #    the YTT transform
 
 engine:
