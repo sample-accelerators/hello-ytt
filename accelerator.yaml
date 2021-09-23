@@ -1,14 +1,13 @@
 accelerator:
   displayName: Hello ytt
-  description: Demonstrates how to use the YTT transform to generate yaml
+  description: Demonstrates how to use the YTT transform to generate YAML
   tags:
     - yaml
     - ytt
-    - accelerator
   options:
     - name: greeting
       label: Greeting
-      description: A sample option used to generate yaml.
+      description: A sample option used to generate YAML.
       defaultValue: Hello
       display: true
 
