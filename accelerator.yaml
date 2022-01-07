@@ -1,6 +1,7 @@
 accelerator:
   displayName: Hello ytt
   description: Demonstrates how to use the YTT transform to generate YAML
+  iconUrl: https://raw.githubusercontent.com/sample-accelerators/icons/master/carvel-logo.png
   tags:
     - yaml
     - ytt
