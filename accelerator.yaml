@@ -10,7 +10,6 @@ accelerator:
       label: Greeting
       description: A sample option used to generate YAML.
       defaultValue: Hello
-      display: true
 
 # To call on YTT all you need is the 'YTT' transform.
 # It requires no parameters.
